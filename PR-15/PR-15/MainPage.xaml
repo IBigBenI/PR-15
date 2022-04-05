@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR_15.MainPage">
+
+    <StackLayout>
+        <Label x:Name="LabelTimer" HorizontalOptions="Center" TextColor="Black"/>
+        <Entry Placeholder="Введите заголовок записи" x:Name="entry" TextChanged="EntryChanged"/>
+        <Button x:Name="Ss" Clicked="StartStopTimer" HorizontalOptions="Center" Text="Старт/Стоп"/>
+        <Button x:Name="Record" Text="Записи" Clicked="RecordClick"/>
+    </StackLayout>
+
+</ContentPage>
